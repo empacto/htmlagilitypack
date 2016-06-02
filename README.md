@@ -2,13 +2,13 @@
 Htmlagilitypack is a powerfull HTML scraping/editing tool. This repo, aims to resume in a simple and complete manner locating/editing of individual/group htlm elments in c#. 
 
 A) Setup reference to a specific HTML Page 
-1) A public website 
+1) A public website :
  HtmlDocument doc = new HtmlDocument();
         doc.Load("http://www.google.com");
 
-B) A private webiste (you control)
+B) A private webiste (you control):
 
- Function(Server.MapPath("./yourpage.html")); 
+ CallFunction(Server.MapPath("./yourpage.html")); 
   ./ = c# file is located in the same dir / webserver
     protected void replaceSCR(string html)
     {
